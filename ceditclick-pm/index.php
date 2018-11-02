@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: CreditClick Price Module
-Plugin URI:
+Plugin URI: https://github.com/CreditClick/PriceModuleWooCommerce
 Description: Extends WooCommerce with a CreditClick pricing information on products.
 Version: 1.2.0
 Author: CreditClick
@@ -9,8 +9,8 @@ Author URI: https://creditclick.eu/
 Text Domain: creditclick-pm-
 Domain Path: /lang
 Copyright: © 2018 CreditClick
-License:
-License URI:
+License: BSD 2-Clause
+License URI: https://github.com/CreditClick/PriceModuleWooCommerce/blob/master/LICENSE
 */
 
 
