@@ -30,7 +30,7 @@ Our module is available under the BSD-2-Clause. See the [LICENSE](https://github
 
 ## Installation
 
-A more detailed installation and configuration instruction is available [here](https://github.com/CreditClick/PriceModuleWooCommerce/wiki).
+A detailed installation and configuration instruction is available [here](https://github.com/CreditClick/PriceModuleWooCommerce/wiki).
 
 ## Issues
 
