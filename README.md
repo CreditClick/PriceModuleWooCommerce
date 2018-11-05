@@ -14,10 +14,7 @@ leaving your page. In other words; 95% of potential buyers are not seen back. Wi
 instalment based payments or a continuous credit portfolio, you have reduced a significant reason
 for consumers not coming back.
 
-The Price Module that CreditClick offers, works conversion-enhancing, because it is already on the
-product page. Pay at once or pay X per month. This option is also displayed in the checkout
-environment. The 'From Costs' are automatically calculated automatically so that a price is always
-displayed that fits the consumer's spending limit.
+The CreditClick Price Module enhances conversion by highlighting the estimated cost per month already on the product page and in the shopping cart ("Pay at once or pay X per month").  The estimated cost per month is calculated automatically and is explained to the consumer in compliance with the local credit regulation.
 
 Please note that the CreditClick Price Module is only displayed on the product page when the
 product offered costs at least € 250 and up to € 1,000. 
