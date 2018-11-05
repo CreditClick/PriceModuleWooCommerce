@@ -1,6 +1,6 @@
 ![]( https://ecom.creditclick.eu/logo_rounded_med.png "CreditClick Logo")
 
-[https://www.creditclick.eu](https://www.creditclick.eu)
+[https://www.creditclick.eu](www.creditclick.eu)
 
 # CreditClick Price Module (WooCommerce)
 
