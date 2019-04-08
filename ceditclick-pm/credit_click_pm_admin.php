@@ -113,15 +113,22 @@ class credit_click_pm_admin {
 			$this->option_section_name // Section
 		);
 
-
-		// Ad type / class
-		add_settings_field(
-			'type_class', // ID
-			'Choose type of button (example: 1 or 2)', // Title
-			array( $this, 'type_class_callback' ), // Callback
+        add_settings_field(
+			'country', // ID
+			'Select Country', // Title
+			array( $this, 'country_callback' ), // Callback
 			$this->option_page_name, // Page
 			$this->option_section_name  // Section
 		);
+
+//		// Ad type / class
+//		add_settings_field(
+//			'type_class', // ID
+//			'Choose type of button (example: 1 or 2)', // Title
+//			array( $this, 'type_class_callback' ), // Callback
+//			$this->option_page_name, // Page
+//			$this->option_section_name  // Section
+//		);
 		// Custom CSS
 		add_settings_field(
 			'style',  // ID
@@ -153,9 +160,12 @@ class credit_click_pm_admin {
 		if(isset($input['cart_enable']))
 			$new_input['cart_enable'] = absint(intval($input['cart_enable']));
 
-		// Ad type / class
-		if(isset($input['type_class']))
-			$new_input['type_class'] = absint(intval($input['type_class']));
+        if(isset($input['country']))
+            $new_input['country'] = sanitize_textarea_field($input['country']);
+
+//		// Ad type / class
+//		if(isset($input['type_class']))
+//			$new_input['type_class'] = absint(intval($input['type_class']));
 
 		// Custom CSS
 		if(isset($input['style']))
@@ -207,18 +217,31 @@ class credit_click_pm_admin {
 		);
 	}
 
+    /**
+     *
+     */
+    public function  country_callback() {
+        $items = array("NL", "DE");
+        echo "<select id='country' name='" . $this->option_name . "[country]'>";
+        foreach($items as $item) {
+            $selected = ($this->options['country'] == $item) ? 'selected="selected"' : '';
+            echo "<option value='$item' $selected>$item</option>";
+        }
+        echo "</select>";
+    }
+
 
 	/**
 	 *
 	 */
-	public function type_class_callback()
-	{
-		printf(
-			'<input type="number" id="type_class" name="%s[type_class]" value="%s" />',
-			$this->option_name,
-			isset( $this->options['type_class']) ? esc_attr( $this->options['type_class']) : ''
-		);
-	}
+//	public function type_class_callback()
+//	{
+//		printf(
+//			'<input type="number" id="type_class" name="%s[type_class]" value="%s" />',
+//			$this->option_name,
+//			isset( $this->options['type_class']) ? esc_attr( $this->options['type_class']) : ''
+//		);
+//	}
 
 	/**
 	 *
