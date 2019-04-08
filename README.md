@@ -17,7 +17,12 @@ for consumers not coming back.
 The CreditClick Price Module enhances conversion by highlighting the estimated cost per month already on the product page and in the shopping cart ("Pay at once or pay X per month").  The estimated cost per month is calculated automatically and is explained to the consumer in compliance with the local credit regulation.
 
 Please note that the CreditClick Price Module is only displayed on the product page when the
-product offered costs at least € 250 and up to € 1,000. 
+product offered amount is within the limits of the country.
+
+|  | Minimum amount | Maximum amount |
+| --- |---| --- |
+| The Netherlands | € 250,- | € 1000,- |
+| Germany  | € 150,- | € 5000,- |
 
 Download the special WooCommerce module [here](https://github.com/CreditClick/PriceModuleWooCommerce/releases)
 

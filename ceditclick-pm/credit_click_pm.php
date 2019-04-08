@@ -41,7 +41,7 @@ class credit_click_pm{
 		ob_start();
 		?>
 		<style><?=$this->get_option('style');?></style>
-		<div class="<?=$class?>" data-cc="<?=$amount;?>" data-cc-btn="<?=$this->get_option('type_class');?>"></div>
+		<div class="<?=$class?>" data-cc="<?=$amount;?>" data-cc-country="<?=$this->get_option('country');?>"></div>
 		<?php
 		return ob_get_clean();
 	}
@@ -94,7 +94,7 @@ class credit_click_pm{
 
 	public function enqueue_script() {
 
-		wp_register_script('cca-script', 'https://ecom.creditclick.eu/cc_nl.min.js','', $this->get_timestamp(), false);
+		wp_register_script('cca-script', 'https://ecom.creditclick.eu/cc.min.js','', $this->get_timestamp(), false);
 		wp_enqueue_script('cca-script');
 		wp_add_inline_script( 'cca-script', 'loadCreditClick(); jQuery(function($) { $( document.body ).on( "updated_cart_totals", function(event) { loadCreditClick(); }); });' );
 	}
