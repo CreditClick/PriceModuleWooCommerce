@@ -94,7 +94,7 @@ class credit_click_pm{
 
 	public function enqueue_script() {
 
-		wp_register_script('cca-script', 'https://ecom.creditclick.eu/cc.min.js','', $this->get_timestamp(), false);
+		wp_register_script('cca-script', 'https://ecom.creditclick.com/cc.min.js','', $this->get_timestamp(), false);
 		wp_enqueue_script('cca-script');
 		wp_add_inline_script( 'cca-script', 'loadCreditClick(); jQuery(function($) { $( document.body ).on( "updated_cart_totals", function(event) { loadCreditClick(); }); });' );
 	}
