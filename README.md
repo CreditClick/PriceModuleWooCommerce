@@ -1,6 +1,6 @@
-![]( https://ecom.creditclick.eu/logo_rounded_med.png "CreditClick Logo")
+![]( https://ecom.creditclick.com/logo_rounded_med.png "CreditClick Logo")
 
-[https://www.creditclick.eu](www.creditclick.eu)
+[https://www.creditclick.com](www.creditclick.com)
 
 # CreditClick Price Module (WooCommerce)
 
@@ -36,4 +36,4 @@ A detailed installation and configuration instruction is available [here](https:
 
 ## Issues
 
-Please contact [support@creditclick.nl](mailto:support@creditclick.nl) or file your issue [here](https://github.com/CreditClick/PriceModuleWooCommerce/issues)
+Please contact [support@creditclick.com](mailto:support@creditclick.com) or file your issue [here](https://github.com/CreditClick/PriceModuleWooCommerce/issues)
