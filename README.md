@@ -21,7 +21,7 @@ product offered amount is within the limits of the country.
 
 |  | Minimum amount | Maximum amount |
 | --- |---| --- |
-| The Netherlands | € 250,- | € 1000,- |
+| The Netherlands | € 1,- | € 5500,- |
 | Germany  | € 150,- | € 5000,- |
 
 Download the special WooCommerce module [here](https://github.com/CreditClick/PriceModuleWooCommerce/releases)
